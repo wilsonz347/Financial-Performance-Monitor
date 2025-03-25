@@ -28,6 +28,24 @@ This project analyzes economic indicators (GDP, Inflation, and Unemployment) fro
    - **Download Method:** BLS "Top Picks" → Labor Force Statistics  
 
 ## 📂 Data Preprocessing
+The datasets have been preprocessed as follows:
 
+1. **Gross Domestic Product (GDP)**
+   - **Cleaning Method:**  
+     - Manually cleaned in Microsoft Excel to address formatting issues (e.g., missing values, inconsistencies).  
+     - Further cleaned using **pandas** to ensure proper formatting and alignment with other datasets.
+
+2. **Inflation Rate (Consumer Price Index - CPI)**
+   - **Cleaning Method:**  
+     - Cleaned manually in Microsoft Excel to fix formatting issues.  
+     - Converted to CSV format for merging with other datasets.
+
+3. **Unemployment Rate (Total & by Race)**
+   - **Cleaning Method:**  
+     - Cleaned manually in Microsoft Excel to resolve formatting issues.  
+     - Converted to CSV format for merging with other datasets.
+
+4. **Merging Datasets**
+   - After cleaning, the datasets (GDP, Inflation, and Unemployment) will be merged based on the time period (2007-2024) for comprehensive analysis.
 
 ## 🛠 How to Use
