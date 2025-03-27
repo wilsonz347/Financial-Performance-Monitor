@@ -35,17 +35,12 @@ The datasets have been preprocessed as follows:
      - Manually cleaned in Microsoft Excel to address formatting issues (e.g., missing values, inconsistencies).  
      - Further cleaned using **pandas** to ensure proper formatting and alignment with other datasets.
 
-2. **Inflation Rate (Consumer Price Index - CPI)**
+2. **Inflation Rate (Consumer Price Index - CPI)** && **Unemployment Rate (Total & by Race)**
    - **Cleaning Method:**  
      - Cleaned manually in Microsoft Excel to fix formatting issues.  
      - Converted to CSV format for merging with other datasets.
 
-3. **Unemployment Rate (Total & by Race)**
-   - **Cleaning Method:**  
-     - Cleaned manually in Microsoft Excel to resolve formatting issues.  
-     - Converted to CSV format for merging with other datasets.
-
-4. **Merging Datasets**
+3. **Merging Datasets**
    - After cleaning, the datasets (GDP, Inflation, and Unemployment) will be merged based on the time period (2007-2024) for comprehensive analysis.
 
 ## 🛠 How to Use
